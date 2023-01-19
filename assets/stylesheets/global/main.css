@@ -1,0 +1,9 @@
+.a-main {
+  background-color: red;
+}
+
+.a-main__container {
+  max-width: 80%;
+  margin: auto;
+  background-color: blueviolet;
+}
