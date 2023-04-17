@@ -1,0 +1,5 @@
+@import "./global/reset.css";
+@import "./main.css";
+@import "./components/buttons.css";
+@import "./global/header.css";
+@import "./pages/home/intro.css";

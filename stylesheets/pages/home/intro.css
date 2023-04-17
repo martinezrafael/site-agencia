@@ -1,0 +1,55 @@
+.am-intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.am-intro__content {
+  align-self: center;
+  max-width: 560px;
+}
+
+.am-intro__title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Tilt Warp", cursive;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.am-intro__description {
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #c9c9c9;
+}
+
+.am-link {
+  color: #915dff;
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.am-link::after {
+  content: "";
+  display: block;
+  background: #915dff;
+  height: 2px;
+  margin-top: 4px;
+  position: relative;
+  transition: 0.4s;
+}
+
+.am-link:hover::after {
+  background: #fff;
+}
+
+.am-link:hover {
+  color: #fff;
+}
