@@ -1,0 +1,9 @@
+.am-line {
+  display: block;
+  height: 4px;
+  width: 100%;
+}
+
+.am-linePurple {
+  background: #915dff;
+}

@@ -1,0 +1,37 @@
+.am-work {
+  margin-bottom: 160px;
+}
+
+.am-work__container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.title__work {
+  margin: 40px 0px;
+}
+
+.am-work__list {
+  display: flex;
+  align-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.am-work__item {
+  background: #fff;
+  border: 4px solid #915dff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  height: 360px;
+  width: 360px;
+}
+
+.am-work__image {
+  height: 100%;
+  width: 100%;
+}
+
+.am-work__footer {
+  text-align: center;
+}
