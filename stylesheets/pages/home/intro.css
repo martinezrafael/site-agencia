@@ -1,8 +1,13 @@
 .am-intro {
+  margin-bottom: 160px;
+}
+
+.am-intro__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  margin-bottom: 160px;
+  max-width: 1160px;
+  margin: 0 auto;
 }
 
 .am-intro__content {
