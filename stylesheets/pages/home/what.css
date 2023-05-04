@@ -1,0 +1,51 @@
+.am-what {
+  position: relative;
+}
+
+.am-what__wrapperDecorator {
+  position: absolute;
+  top: 0;
+  z-index: -1000;
+}
+
+.am-what__content {
+  z-index: 1000;
+  position: absolute;
+  top: 160px;
+  max-width: 1160px;
+  margin-left: 220px;
+}
+
+.am-title__what {
+  margin-bottom: 40px;
+}
+
+.am-what__card {
+  height: 560px;
+  width: 560px;
+  background: #fff;
+  border: 4px solid #915dff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  position: relative;
+}
+
+.am-what__card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  position: absolute;
+  top: 88px;
+}
+
+.am-what__card__line {
+  background-color: #000;
+  border-radius: 4px;
+  height: 16px;
+  width: 480px;
+}
+
+.am-what__card___paragraph {
+  max-width: 480px;
+}
